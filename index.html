@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>둥치</title>
+  </head>
+  <body>
+    <div>
+      <h1>자기소개</h1>
+      <ul>
+        <li><strong>이름: </strong>참새</li>
+        <li><strong>둥지: </strong> 인천</li>
+        <li><strong>특징: </strong> 미러 테스트 통과 가능</li>
+      </ul>
+    </div>
+
+    <div>
+      <h1>인생영화 BEST5</h1>
+      <table>
+        <tr>
+          <th>순위</th>
+          <th>제목</th>
+          <th>포스터</th>
+          <th>줄거리</th>
+          <th>바로가기</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>보헤미안 랩소디</td>
+          <td><img src="./images/bohemian.jpg" width="100px" height="100px"></td>
+          <td>이민자 출신의 아웃사이더 '파록버사라'가 전설의 록밴드 '퀸'이 되기까지의 이야기</td>
+          <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=156464#" target="_blank">네이버 영화</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>하이 스쿨 뮤지컬</td>
+          <td><img src="./images/highschool.jpg" width="100px" height="100px"></td>
+          <td>뮤지컬 오디션에 참가하면서, 이스트 고교의 학생들은 팀워크에 대한 중요한 레슨을 배우고, 관중 모두가 즐길 뮤지컬 공연을 준비한다.</td>
+          <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=67625#" target="_blank">네이버 영화</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>인터스텔라</td>
+          <td><img src="./images/interstella.jpg" width="100px" height="100px"></td>
+          <td>웜홀을 통해 지구 인류의 이민을 위한 장소를 알아보는 이야기</td>
+          <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=45290#" target="_blank">네이버 영화</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>모아나</td>
+          <td><img src="./images/moana.jpg" width="100px" height="100px"></td>
+          <td>모든 것이 완벽했던 모투누이 섬이 저주에 걸리자 바다가 선택한 소녀 모아나는 섬을 구하기 위해 머나먼 항해를 떠난다.</td>
+          <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=130849#" target="_blank">네이버 영화</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>어벤져스: 엔드게임</td>
+          <td><img src="./images/endgame.jpg" width="100px" height="100px"></td>
+          <td>인피니티 워 이후 절반만 살아남은 지구. 운명을 바꿀 최후의 전쟁이 펼쳐진다!</td>
+          <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=136900#" target="_blank">네이버 영화</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <h1>방명록</h1>
+      <form>
+        <p>이름: <input id="name" type="text"></p>
+        <div>
+          <input type="checkbox" id="bohemian" name="bohemian">
+          <label for="bohemian">보헤미안 랩소디</label>
+        </div>
+        <div>
+          <input type="checkbox" id="highschool" name="highschool">
+          <label for="highschool">하이 스쿨 뮤지컬</label>
+        </div>
+        <div>
+          <input type="checkbox" id="interstella" name="interstella">
+          <label for="interstella">인터스텔라</label>
+        </div>
+        <div>
+          <input type="checkbox" id="moana" name="moana">
+          <label for="moana">모아나</label>
+        </div>
+        <div>
+          <input type="checkbox" id="endgame" name="endgame">
+          <label for="endgame">어벤져스: 엔드게임</label>
+        </div>
+        <p>
+          <button type="button" id="submit">등록</button>
+          <button type="reset">취소</button>
+        </p>
+      </form>
+
+      <div id="guestbook">
+
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
